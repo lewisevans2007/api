@@ -1,0 +1,15 @@
+{
+    "pages": [
+        "api/",
+        "api/help",
+        "api/version",
+        "api/time/date",
+        "api/time/time",
+        "api/random",
+        "api/ip",
+        "api/useragent",
+        "api/headers",
+        "api/nodejs/version",
+        "api/repos"
+    ]
+}
