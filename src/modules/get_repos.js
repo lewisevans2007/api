@@ -1,6 +1,7 @@
 /* API
  * A api for my projects and other things
  * Github: https://www.github.com/awesomelewis2007/api
+ * License: GPL-3.0
  * By: Lewis Evans
 */
 

@@ -1,6 +1,7 @@
 # API
 # A api for my projects and other things
 # Github: https://www.github.com/awesomelewis2007/api
+# Licence: GPL-3.0
 # By: Lewis Evans
 
 from flask import Flask, request, jsonify
