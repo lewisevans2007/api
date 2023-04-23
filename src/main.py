@@ -12,8 +12,10 @@ import datetime
 import random
 import os
 import subprocess
+import datetime
 
 VERSION = "1.0.0"
+START_TIME = datetime.datetime.now()
 
 app = Flask(__name__)
 CORS(app)
@@ -88,6 +90,13 @@ def api_nodejs_version():
 def api_repos():
     result = subprocess.check_output(["node", "src/modules/get_repos.js"]).decode("utf-8")
     return result
+
+@app.route("/api/uptime")
+def api_uptime():
+    uptime = {
+        "uptime": str(datetime.datetime.now() - START_TIME)
+    }
+    return json.dumps(uptime, indent=4)
 
 if __name__ == "__main__":
     app.run( debug=True)
