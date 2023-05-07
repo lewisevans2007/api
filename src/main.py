@@ -25,6 +25,7 @@ CORS(app)
 def index():
     return "awesomelewis2007 API v" + VERSION + " Please go to /api/help for help"
 
+
 @app.route("/api/version")
 def version():
     ver = {"version": VERSION}
