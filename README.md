@@ -2,6 +2,8 @@
 
 A api for my projects and other things
 
+Live at: [awesomelewis-api.vercel.app](https://awesomelewis-api.vercel.app/)
+
 ## Urls
 
 ### /api
