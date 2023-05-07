@@ -23,9 +23,7 @@ CORS(app)
 
 @app.route("/")
 def index():
-    f = open("pages/index.html", "r")
-    return f.read()
-
+    return "awesomelewis2007 API v" + VERSION + " Please go to /api/help for help"
 
 @app.route("/api/version")
 def version():
