@@ -14,7 +14,7 @@ import os
 import subprocess
 import datetime
 
-VERSION = "1.0.0"
+VERSION = "1.1.0"
 START_TIME = datetime.datetime.now()
 
 app = Flask(__name__)
