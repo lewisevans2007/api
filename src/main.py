@@ -20,7 +20,8 @@ START_TIME = datetime.datetime.now()
 app = Flask(__name__)
 CORS(app)
 
-homepage ="""
+homepage = (
+    """
 <style>
     body {
         font-family: sans-serif;
@@ -37,17 +38,22 @@ homepage ="""
 </style>
 <br>
 <div class="content">
-    <h1>awesomelewis2007 API v""" + VERSION + """</h1>
+    <h1>awesomelewis2007 API v"""
+    + VERSION
+    + """</h1>
     <hr>
     <p>An API for my projects and other things</p>
     <p>Github: <a href="https://www.github.com/awesomelewis2007/api">https://www.github.com/awesomelewis2007/api</a></p>
     <p>For usage please go to <a href="/api/help">/api/help</a></p>
 </div>
 """
+)
+
 
 @app.route("/")
 def index():
     return homepage
+
 
 @app.route("/api/version")
 def version():
