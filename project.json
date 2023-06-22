@@ -1,7 +1,7 @@
 {
     "name": "api",
     "description": "A api for my projects and other things",
-    "version": "1.0",
+    "version": "",
     "main_file": "src/main.py",
     "author": "Lewis Evans",
     "license": "GNU General Public License v3.0",
