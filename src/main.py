@@ -1,6 +1,6 @@
 # API
 # A api for my projects and other things
-# Github: https://www.github.com/awesomelewis2007/api
+# Github: https://www.github.com/lewisevans2007/api
 # Licence: GNU General Public License v3.0
 # By: Lewis Evans
 
@@ -38,12 +38,12 @@ homepage = (
 </style>
 <br>
 <div class="content">
-    <h1>awesomelewis2007 API v"""
+    <h1>lewisevans2007 API v"""
     + VERSION
     + """</h1>
     <hr>
     <p>An API for my projects and other things</p>
-    <p>Github: <a href="https://www.github.com/awesomelewis2007/api">https://www.github.com/awesomelewis2007/api</a></p>
+    <p>Github: <a href="https://www.github.com/lewisevans2007/api">https://www.github.com/lewisevans2007/api</a></p>
     <p>For usage please go to <a href="/api/help">/api/help</a></p>
 </div>
 """

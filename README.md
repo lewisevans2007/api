@@ -48,7 +48,7 @@ Returns the version of nodejs installed on the server
 
 ### /api/repos
 
-Returns a list of all the repos by awesomelewis2007
+Returns a list of all the repos by lewisevans2007
 
 ### /api/uptime
 
